@@ -1,0 +1,98 @@
+*{
+	border: 0;
+	margin: 0;
+}
+@font-face
+{
+	font-family: "Chalet";
+	src: url("../fonts/Chalet.eot");
+	src: url("../fonts/Chalet.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Chalet.woff") format("woff"),
+		url("../fonts/Chalet.ttf") format("truetype"),
+		url("../fonts/Chalet.svg#Chalet") format("svg");
+}
+/*Etiquetas*/
+a{
+	color: #F60;
+	text-decoration: none;
+}
+a:hover{
+	color: #7BBFD5;
+}
+body{
+	background: white;
+	color: #212121;
+	font-family: "Chalet",Helvetica,Verdana;
+	font-size: 16px;
+}
+/*Es la linea q enmarca al formulario*/
+fieldset{
+	border: .1em solid #F60;
+	border-radius: .5em;
+	padding: 1em;
+}
+form{
+	display: none;
+}
+form div{
+	margin: .5em;
+}
+input[type="checkbox"],input[type="radio"],select
+{
+	background: #EEE;
+	cursor: pointer;
+}
+input[type="email"],input[type="date"],input[type="text"],input[type="number"]
+{
+	background: #EEE;
+	border-radius: .25em;
+	color: #F60;
+	font-size: 1em;
+	padding: .25em;
+}
+input[type="email"]:focus,input[type="date"]:focus,input[type="text"]:focus,input[type="number"]:focus
+{
+	background: #C6ECF9;
+}
+input[type="submit"]{
+	background: #FF9A55;
+	border-radius: 0 .25em;
+	color: #500;
+	font-family: "Chalet";
+	font-size: 1em;
+}
+input[type="submit"]:hover{
+	background: #7BBFD5;
+	border-radius: .25em 0;
+	color: #000;
+	cursor: pointer;
+}
+ul{
+	list-style: none;
+}
+/*IDS*/
+#contenido{
+	/*0 arriba/abajo y aut a los lados*/
+	margin: 0 auto;
+	text-align: center;
+}
+nav,#principal{
+	-ms-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	display: inline-block;
+	font-size: 1em;
+	margin: .25em;
+	text-align: left;
+	width: 20%;
+	vertical-align: top;
+}
+.cambio{
+	-ms-transition:all 2s ease-out;
+	-moz-transition:all 2s ease-out;
+	-o-transition:all 2s ease-out;
+	-webkit-transition:all 2s ease-out;
+	transition:all 2s ease-out;
+}

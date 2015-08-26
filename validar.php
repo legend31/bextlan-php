@@ -1,4 +1,5 @@
 <?php
+//Este es un comment
 	$nom="fer";
 	$pass="123";
 	if($_GET["nombre"]==$nom && $_GET["pass"]==$pass)
